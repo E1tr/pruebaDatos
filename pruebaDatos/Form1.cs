@@ -20,7 +20,7 @@ namespace pruebaDatos
         }
         private void refrescarGrid()
         {
-            string cadenaConexion = "Server=localhost\\SQLEXPRESS;Database=instituto;Trusted_Connection=True;";
+            string cadenaConexion = "Aquí irá la cadena de conexión a la base de datos";
             using (SqlConnection conn = new SqlConnection(cadenaConexion))
             {
                 conn.Open();
